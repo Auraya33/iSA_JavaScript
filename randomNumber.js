@@ -2,7 +2,12 @@
 
 function randomNumber() {
     return 'Twoja szczęśliwa lczba to: ' + Math.ceil(Math.random()* 10 * 100 )/100;
-
+    //
 }
 console.log(randomNumber());
 
+
+// function randomNumber() {
+//     return 'Twoja szczęśliwa lczba to: ' + (Math.random()* 10).toFixed(2);
+//
+// }
