@@ -7,7 +7,7 @@ var sender = 'Kasia',
     receiver = 'Ania';
 
 function MessageInfo(sender, receiver, sms) {
-        return '(' + 'FROM: ' + sender + ') ' + '(' + 'TO: ' + receiver + ') ' +  '(' + 'MESSAGE: ' + sms + ')';
+        return '( FROM: ' + sender + ') ' +  '(TO: ' + receiver + ')' + ' ( MESSAGE: ' + sms + ')';
 }
 console.log(MessageInfo(sender, receiver, sms));
 
